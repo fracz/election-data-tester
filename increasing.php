@@ -17,7 +17,7 @@ file_put_contents('data.txt', '');
 
 $probs = [];
 foreach ($names as $name) {
-    $probs[$name] = 1;
+    $probs[$name] = 1 / 2;
 }
 
 for ($i = 0; $i < $voters; $i++) {
