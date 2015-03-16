@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e8c30e047332ee539a17faea14de5d23",
+    "packages": [
+        {
+            "name": "droophp/droophp",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pjcdawkins/DrooPHP.git",
+                "reference": "f7a7d4621a7a61641689a28289c8cf1549304dff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pjcdawkins/DrooPHP/zipball/f7a7d4621a7a61641689a28289c8cf1549304dff",
+                "reference": "f7a7d4621a7a61641689a28289c8cf1549304dff",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "symfony/console": "~2.5"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/droophp"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DrooPHP\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Patrick Dawkins",
+                    "email": "pjcdawkins@gmail.com",
+                    "homepage": "http://patrickdawkins.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "STV vote counting",
+            "homepage": "https://github.com/pjcdawkins/DrooPHP",
+            "keywords": [
+                "count",
+                "election",
+                "stv",
+                "vote"
+            ],
+            "time": "2014-09-29 23:31:38"
+        },
+        {
+            "name": "julien-boudry/condorcet",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/julien-boudry/Condorcet.git",
+                "reference": "9eea6ff4d438de00dffdf2eb62c7c85376bd0eea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/julien-boudry/Condorcet/zipball/9eea6ff4d438de00dffdf2eb62c7c85376bd0eea",
+                "reference": "9eea6ff4d438de00dffdf2eb62c7c85376bd0eea",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.5.12"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Julien Boudry",
+                    "email": "julien.boudry@supinternet.fr",
+                    "homepage": "http://www.julien-boudry.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Condorcet is a PHP Class to computing many Condorcet voting methods",
+            "homepage": "https://github.com/julien-boudry/Condorcet",
+            "time": "2015-03-02 23:21:54"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.6.4",
+            "target-dir": "Symfony/Component/Console",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Console.git",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "reference": "e44154bfe3e41e8267d7a3794cd9da9a51cfac34",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1",
+                "symfony/process": "~2.1"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Console\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-01-25 04:39:26"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "julien-boudry/condorcet": 20,
+        "droophp/droophp": 20
+    },
+    "prefer-stable": false,
+    "platform": [],
+    "platform-dev": []
+}

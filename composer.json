@@ -1,0 +1,13 @@
+{
+    "name": "Wojtek/election",
+    "authors": [
+        {
+            "name": "Wojciech Frącz",
+            "email": "fraczwojciech@gmail.com"
+        }
+    ],
+    "require": {
+      "julien-boudry/condorcet": "dev-master",
+      "droophp/droophp": "dev-master"
+    }
+}
